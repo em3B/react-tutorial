@@ -7,7 +7,7 @@ const Card = props => {
   console.log(props.ErrorModal);
 
   return (
-    <div className={`${classes.card} ${props.children.props.className}`}>
+    <div className={`${classes.card} ${props.className}`}>
       {props.children}
     </div>
   )
